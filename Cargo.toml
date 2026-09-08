@@ -1,0 +1,9 @@
+[package]
+name = "UHOrderSystem"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+maud = { version = "*", features = ["axum"] }
+axum = "0.8.9"
+tokio = { version = "1.53.1",features = ["rt-multi-thread","macros"] }
